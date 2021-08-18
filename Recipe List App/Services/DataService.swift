@@ -42,6 +42,9 @@ class DataService   {
                     
                     r.id = UUID()
                     
+                    for i in r.ingredients {
+                    i.id = UUID()
+                    }
                 }
             // Return the recipes
             return recipeData
