@@ -16,6 +16,7 @@
 		A7AD868326C82A2D0005C76C /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD868226C82A2D0005C76C /* RecipeModel.swift */; };
 		A7AD868626C82B450005C76C /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD868526C82B450005C76C /* DataService.swift */; };
 		A7AD868826C874750005C76C /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD868726C874750005C76C /* RecipeDetailView.swift */; };
+		A7CCF7C926CD570D00139C12 /* Ingriedients.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CCF7C826CD570D00139C12 /* Ingriedients.swift */; };
 		A7F34AA626CC5BEA0084515B /* RecipeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F34AA526CC5BEA0084515B /* RecipeTabView.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		A7AD868226C82A2D0005C76C /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
 		A7AD868526C82B450005C76C /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		A7AD868726C874750005C76C /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+		A7CCF7C826CD570D00139C12 /* Ingriedients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingriedients.swift; sourceTree = "<group>"; };
 		A7F34AA526CC5BEA0084515B /* RecipeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				A7AD868026C829450005C76C /* Recipe.swift */,
+				A7CCF7C826CD570D00139C12 /* Ingriedients.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			files = (
 				A7AD868126C829450005C76C /* Recipe.swift in Sources */,
 				A7AD868826C874750005C76C /* RecipeDetailView.swift in Sources */,
+				A7CCF7C926CD570D00139C12 /* Ingriedients.swift in Sources */,
 				A7AD868326C82A2D0005C76C /* RecipeModel.swift in Sources */,
 				A7AD865D26C827950005C76C /* RecipeListView.swift in Sources */,
 				A7AD865B26C827950005C76C /* Recipe_List_App.swift in Sources */,
