@@ -49,7 +49,7 @@ struct RecipeDetailView: View {
                     .font(.headline)
                 .padding(.bottom, 3)
                 ForEach (recipe.ingredients) {item in
-                    Text("• " + RecipeModel.getPortion(ingriedient: item, recipeServings: recipe.servings, targetServings: selectedServingSize) + Text(" ") + item.name)
+                    Text("• " + RecipeModel.getPortion(ingriedient: item, recipeServings: recipe.servings, targetServings: selectedServingSize) + " " + item.name.lowercased())
                 }
             }
             .padding(.horizontal)
